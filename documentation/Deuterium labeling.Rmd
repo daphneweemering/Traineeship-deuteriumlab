@@ -1,0 +1,8 @@
+---
+title: "Deuterium labeling"
+author: "Daphne Weemering"
+date: "1/4/2022"
+output: pdf_document
+---
+
+
