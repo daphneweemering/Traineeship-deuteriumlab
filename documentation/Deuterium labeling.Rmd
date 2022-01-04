@@ -1,8 +1,39 @@
 ---
-title: "Deuterium labeling"
+title: "Optimal design for minimal length deuterium labeling experiments in homogenous cell populations"
 author: "Daphne Weemering"
-date: "1/4/2022"
+date: "January 4, 2022"
+affiliation: "Utrecht University"
+fontsize: "11pt"
+papersize: a4
 output: pdf_document
+bibliography: "reference.bib"
+csl: "aje.csl"
 ---
 
+\newpage
+# Introduction
+Deuterium labeling provides with an excellent tool to measure the proliferation and death rate of lymphocyte cells, i.e., lymphocyte dynamics, in a body. Deuterium ($^2H$) can be administered to an individual as deuterated water ($^2H_2O$) or as deuterated glucose ($^2H glucose)$. Deuterium does not interfere with cell dynamics, and is incorporated into the DNA of newly dividing cells during the labelling period (i.e., the period in which the label is administered). After the labelling period, the cells keep dividing and the label is still available in the body. However, since no new label is administered, the existence of label in the body will slowly decline. Deuterium labelling allows researchers to investigate how these lymphocyte dynamics are disrupted by devastating illnesses, such as cancer and HIV. 
 
+In a normal situation (i.e., a healthy individual) the size of a lymphocyte population should be constant, or it should change very slowly over time. If the population as a whole is constant, this implies that the proliferation rate and the death rate of the lymphocyte cells should be approximately equal to each other. Research has shown that this is not always the case, with the death rate often being quite larger than the proliferation rate (REF). One explanation for this occurrence is the existence of heterogeneous populations, populations consisting of both long-lived and short-lived cells (REF). Due to the heterogeneity of the population, the labelled fraction is not a representative sample of the population. The sample mostly includes cells that divided recently, the short-lived cells. Having this explained, I will state that this study focuses on homogeneous populations only. Extending this study to heterogeneous populations is an opportunity for future research. 
+
+Measuring the number of deuterated cells in the body is usually accomplished by means of blood samples. Gas-chromatography mass-spectrometry (GC-MS) is then used to measure the ratio of labelled to unlabelled lymphocyte cells. Taking blood samples is often not an ethical or practical issue in this context. However, doing a labelling experiment with the purpose of measuring lymphocyte dynamics in the bone marrow might become problematic. Obtaining samples from the bone marrow has to happen under anesthesia, and it is not ethical to do this practice numerous times. However, bone marrow samples would be very valuable, since it is these parts of the body where most of the cells are produced (REF). Investigating cell dynamics, the origin of these dynamics might be an interesting place to look. 
+
+The goal of this study is to find the optimal time points for taking samples from an individual, dependent on the duration of the labelling period and the noise of the data. The objective is to keep the number of measurements low (which is desirable when taking bone marrow samples), while optimizing the accuracy of the estimates for the lymphocyte dynamics. For this optimization task, simulation studies are executed for different lengths of labelling periods.
+
+
+\newpage
+# Methodology
+To find the optimal time points for taking samples from an individual to measure the lymphocyte dynamics in (for instance) bone marrow, simulation studies are executed. The goal is to find the optimal number of time points for each specific labelling period with length $\tau$. 
+
+
+
+\newpage
+# Results
+
+
+
+
+
+\newpage
+# References
+<div id="refs"></div>
